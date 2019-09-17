@@ -9,10 +9,7 @@ import { throwStatement } from '@babel/types';
 class Splash extends Component {
 
   componentDidMount=()=>{
-    console.log('====================================');
-    console.log("componentDidMount");
     setTimeout(() => {
-      console.log('====================================');
      Navigation.setRoot({
        root:{
          stack:{
